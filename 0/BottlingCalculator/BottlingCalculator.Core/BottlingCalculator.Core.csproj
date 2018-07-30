@@ -8,6 +8,9 @@
     <PackageReference Include="MvvmCross" Version="6.1.2" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Remove="Class1.cs" />
+  </ItemGroup>
+  <ItemGroup>
     <Folder Include="ViewModels\">
       <DependentUpon>ViewModels</DependentUpon>
     </Folder>

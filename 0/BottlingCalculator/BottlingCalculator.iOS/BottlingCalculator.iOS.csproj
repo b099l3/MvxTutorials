@@ -97,7 +97,6 @@
   <ItemGroup>
     <Folder Include="Resources\" />
     <Folder Include="Views\">
-      <DependentUpon>Views</DependentUpon>
     </Folder>
   </ItemGroup>
   <ItemGroup>
@@ -118,9 +117,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BottlingCalculator\BottlingCalculator.csproj">
-      <Project>{3B9F9813-062E-4DFB-8FE4-B46153AD4596}</Project>
-      <Name>BottlingCalculator</Name>
+    <ProjectReference Include="..\BottlingCalculator.Core\BottlingCalculator.Core.csproj">
+      <Project>{693832CB-D06C-411F-9AE9-5361DF4A91C7}</Project>
+      <Name>BottlingCalculator.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

@@ -1,7 +1,7 @@
 ﻿using MvvmCross.ViewModels;
-using BottlingCalculator.ViewModels;
+using BottlingCalculator.Core.ViewModels;
 
-namespace BottlingCalculator
+namespace BottlingCalculator.Core
 {
     public class App : MvxApplication
     {

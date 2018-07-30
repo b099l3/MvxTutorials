@@ -1,4 +1,5 @@
-﻿using Foundation;
+﻿using BottlingCalculator.Core;
+using Foundation;
 using MvvmCross.Platforms.Ios.Core;
 
 namespace BottlingCalculator.iOS

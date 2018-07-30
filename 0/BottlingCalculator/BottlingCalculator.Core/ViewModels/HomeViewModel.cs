@@ -1,7 +1,7 @@
 ﻿using System;
 using MvvmCross.ViewModels;
 
-namespace BottlingCalculator.ViewModels
+namespace BottlingCalculator.Core.ViewModels
 {
     public class HomeViewModel : MvxViewModel
     {
@@ -21,24 +21,12 @@ namespace BottlingCalculator.ViewModels
             }
         }
 
-        public string BeerBottles
-        {
-            get => $"{Math.Round(BeerInLitres / 330, 2)} - beer bottles";
-        }
+        public string BeerBottles => $"{Math.Round(BeerInLitres / 330, 2)} - beer bottles";
 
-        public string Pints
-        {
-            get => $"{Math.Round(BeerInLitres / 568, 2)} -  pints";
-        }
+        public string Pints => $"{Math.Round(BeerInLitres / 568, 2)} -  pints";
 
-        public string WineBottles
-        {
-            get => $"{Math.Round(BeerInLitres / 750, 2)} - wine bottles";
-        }
+        public string WineBottles => $"{Math.Round(BeerInLitres / 750, 2)} - wine bottles";
 
-        public string MiniKegs
-        {
-            get => $"{Math.Round(BeerInLitres / 5000, 2)} - mini kegs";
-        }
+        public string MiniKegs => $"{Math.Round(BeerInLitres / 5000, 2)} - mini kegs";
     }
 }

@@ -1,4 +1,4 @@
-﻿using BottlingCalculator.ViewModels;
+﻿using BottlingCalculator.Core.ViewModels;
 using MvvmCross.Binding.BindingContext;
 using MvvmCross.Platforms.Ios.Presenters.Attributes;
 using MvvmCross.Platforms.Ios.Views;
