@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BottlingCalculator.iOS", "BottlingCalculator.iOS\BottlingCalculator.iOS.csproj", "{4739C596-6D83-46B9-809A-E4976BFDFAD8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BottlingCalculator.Droid", "BottlingCalculator.Droid\BottlingCalculator.Droid.csproj", "{CDBC90B9-AFDF-4504-BD97-EEFA2933E72D}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BottlingCalculator.Core", "BottlingCalculator.Core\BottlingCalculator.Core.csproj", "{693832CB-D06C-411F-9AE9-5361DF4A91C7}"
 EndProject
 Global
@@ -27,6 +29,18 @@ Global
 		{4739C596-6D83-46B9-809A-E4976BFDFAD8}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		{4739C596-6D83-46B9-809A-E4976BFDFAD8}.Debug|iPhone.ActiveCfg = Debug|iPhone
 		{4739C596-6D83-46B9-809A-E4976BFDFAD8}.Debug|iPhone.Build.0 = Debug|iPhone
+		{CDBC90B9-AFDF-4504-BD97-EEFA2933E72D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDBC90B9-AFDF-4504-BD97-EEFA2933E72D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDBC90B9-AFDF-4504-BD97-EEFA2933E72D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDBC90B9-AFDF-4504-BD97-EEFA2933E72D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDBC90B9-AFDF-4504-BD97-EEFA2933E72D}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{CDBC90B9-AFDF-4504-BD97-EEFA2933E72D}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{CDBC90B9-AFDF-4504-BD97-EEFA2933E72D}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{CDBC90B9-AFDF-4504-BD97-EEFA2933E72D}.Release|iPhone.Build.0 = Release|Any CPU
+		{CDBC90B9-AFDF-4504-BD97-EEFA2933E72D}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{CDBC90B9-AFDF-4504-BD97-EEFA2933E72D}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{CDBC90B9-AFDF-4504-BD97-EEFA2933E72D}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{CDBC90B9-AFDF-4504-BD97-EEFA2933E72D}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{693832CB-D06C-411F-9AE9-5361DF4A91C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{693832CB-D06C-411F-9AE9-5361DF4A91C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{693832CB-D06C-411F-9AE9-5361DF4A91C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
