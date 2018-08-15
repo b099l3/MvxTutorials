@@ -6,7 +6,8 @@ using MvvmCross.Platforms.Android.Views;
 namespace BottlingCalculator.Droid.Views
 {
     [MvxActivityPresentation]
-    [Activity(Label = "View for HomeViewModel")]
+    [Activity(Label = "View for HomeViewModel", 
+              Theme = "@style/MainTheme")]
     public class HomeView : MvxActivity
     {
         protected override void OnCreate(Bundle bundle)
