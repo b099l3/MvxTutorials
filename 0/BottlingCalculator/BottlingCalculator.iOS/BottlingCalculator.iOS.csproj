@@ -87,7 +87,7 @@
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
     <Reference Include="MvvmCross">
-      <HintPath>..\packages\MvvmCross.6.1.2\lib\xamarinios10\MvvmCross.dll</HintPath>
+      <HintPath>..\packages\MvvmCross.6.2.0\lib\xamarinios10\MvvmCross.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
